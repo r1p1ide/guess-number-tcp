@@ -1,0 +1,614 @@
+No.     Time           Source                Destination           Protocol Length Info
+     88 3.773088       127.0.0.1             127.0.0.1             TCP      56     56651 → 6666 [SYN] Seq=0 Win=65535 Len=0 MSS=65495 WS=256 SACK_PERM
+
+Frame 88: 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 0, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 3525623131
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 0
+    Acknowledgment number (raw): 0
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x002 (SYN)
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0xf013 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 3.773122       127.0.0.1             127.0.0.1             TCP      56     6666 → 56651 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=65495 WS=256 SACK_PERM
+
+Frame 91: 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 0, Ack: 1, Len: 0
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 0    (relative sequence number)
+    Sequence Number (raw): 1730608874
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3525623132
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x012 (SYN, ACK)
+    Window: 65535
+    [Calculated window size: 65535]
+    Checksum: 0x89f1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), Maximum segment size, No-Operation (NOP), Window scale, No-Operation (NOP), No-Operation (NOP), SACK permitted
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 3.773132       127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [ACK] Seq=1 Ack=1 Win=2161152 Len=0
+
+Frame 93: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 1, Ack: 1, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3525623132
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 1730608875
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3ee [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 3.791204       127.0.0.1             127.0.0.1             TCP      90     6666 → 56651 [PSH, ACK] Seq=1 Ack=1 Win=2161152 Len=46
+
+Frame 94: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 1, Ack: 1, Len: 46
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 46]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1730608875
+    [Next Sequence Number: 47    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3525623132
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0x504d [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (46 bytes)
+Data (46 bytes)
+
+0000  57 65 6c 63 6f 6d 65 20 74 6f 20 74 68 65 20 67   Welcome to the g
+0010  75 65 73 73 69 6e 67 20 6e 75 6d 62 65 72 20 67   uessing number g
+0020  61 6d 65 20 28 31 2d 31 30 30 29 21 0d 0a         ame (1-100)!..
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 3.791223       127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [ACK] Seq=1 Ack=47 Win=2161152 Len=0
+
+Frame 95: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 1, Ack: 47, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3525623132
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 47    (relative ack number)
+    Acknowledgment number (raw): 1730608921
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3c0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 7.334327       127.0.0.1             127.0.0.1             TCP      47     56651 → 6666 [PSH, ACK] Seq=1 Ack=47 Win=2161152 Len=3
+
+Frame 114: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 1, Ack: 47, Len: 3
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 3]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3525623132
+    [Next Sequence Number: 4    (relative sequence number)]
+    Acknowledgment Number: 47    (relative ack number)
+    Acknowledgment number (raw): 1730608921
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0x68a8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (3 bytes)
+Data (3 bytes)
+
+0000  31 0d 0a                                          1..
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 7.334344       127.0.0.1             127.0.0.1             TCP      44     6666 → 56651 [ACK] Seq=47 Ack=4 Win=2161152 Len=0
+
+Frame 115: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 47, Ack: 4, Len: 0
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 47    (relative sequence number)
+    Sequence Number (raw): 1730608921
+    [Next Sequence Number: 47    (relative sequence number)]
+    Acknowledgment Number: 4    (relative ack number)
+    Acknowledgment number (raw): 3525623135
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3bd [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 7.334836       127.0.0.1             127.0.0.1             TCP      50     6666 → 56651 [PSH, ACK] Seq=47 Ack=4 Win=2161152 Len=6
+
+Frame 116: 50 bytes on wire (400 bits), 50 bytes captured (400 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 47, Ack: 4, Len: 6
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 6]
+    Sequence Number: 47    (relative sequence number)
+    Sequence Number (raw): 1730608921
+    [Next Sequence Number: 53    (relative sequence number)]
+    Acknowledgment Number: 4    (relative ack number)
+    Acknowledgment number (raw): 3525623135
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xf710 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (6 bytes)
+Data (6 bytes)
+
+0000  4d 4f 52 45 0d 0a                                 MORE..
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 7.334847       127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [ACK] Seq=4 Ack=53 Win=2161152 Len=0
+
+Frame 117: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 4, Ack: 53, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 4    (relative sequence number)
+    Sequence Number (raw): 3525623135
+    [Next Sequence Number: 4    (relative sequence number)]
+    Acknowledgment Number: 53    (relative ack number)
+    Acknowledgment number (raw): 1730608927
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3b7 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 9.814032       127.0.0.1             127.0.0.1             TCP      48     56651 → 6666 [PSH, ACK] Seq=4 Ack=53 Win=2161152 Len=4
+
+Frame 120: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 4, Ack: 53, Len: 4
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 4]
+    Sequence Number: 4    (relative sequence number)
+    Sequence Number (raw): 3525623135
+    [Next Sequence Number: 8    (relative sequence number)]
+    Acknowledgment Number: 53    (relative ack number)
+    Acknowledgment number (raw): 1730608927
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0x6171 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (4 bytes)
+Data (4 bytes)
+
+0000  35 30 0d 0a                                       50..
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 9.814048       127.0.0.1             127.0.0.1             TCP      44     6666 → 56651 [ACK] Seq=53 Ack=8 Win=2161152 Len=0
+
+Frame 121: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 53, Ack: 8, Len: 0
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 53    (relative sequence number)
+    Sequence Number (raw): 1730608927
+    [Next Sequence Number: 53    (relative sequence number)]
+    Acknowledgment Number: 8    (relative ack number)
+    Acknowledgment number (raw): 3525623139
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3b3 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 9.814183       127.0.0.1             127.0.0.1             TCP      50     6666 → 56651 [PSH, ACK] Seq=53 Ack=8 Win=2161152 Len=6
+
+Frame 122: 50 bytes on wire (400 bits), 50 bytes captured (400 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 53, Ack: 8, Len: 6
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 6]
+    Sequence Number: 53    (relative sequence number)
+    Sequence Number (raw): 1730608927
+    [Next Sequence Number: 59    (relative sequence number)]
+    Acknowledgment Number: 8    (relative ack number)
+    Acknowledgment number (raw): 3525623139
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xf702 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (6 bytes)
+Data (6 bytes)
+
+0000  4c 45 53 53 0d 0a                                 LESS..
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 9.814196       127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [ACK] Seq=8 Ack=59 Win=2161152 Len=0
+
+Frame 123: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 8, Ack: 59, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 8    (relative sequence number)
+    Sequence Number (raw): 3525623139
+    [Next Sequence Number: 8    (relative sequence number)]
+    Acknowledgment Number: 59    (relative ack number)
+    Acknowledgment number (raw): 1730608933
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3ad [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 14.914113      127.0.0.1             127.0.0.1             TCP      48     56651 → 6666 [PSH, ACK] Seq=8 Ack=59 Win=2161152 Len=4
+
+Frame 126: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 8, Ack: 59, Len: 4
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 4]
+    Sequence Number: 8    (relative sequence number)
+    Sequence Number (raw): 3525623139
+    [Next Sequence Number: 12    (relative sequence number)]
+    Acknowledgment Number: 59    (relative ack number)
+    Acknowledgment number (raw): 1730608933
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0x6466 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (4 bytes)
+Data (4 bytes)
+
+0000  32 31 0d 0a                                       21..
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 14.914129      127.0.0.1             127.0.0.1             TCP      44     6666 → 56651 [ACK] Seq=59 Ack=12 Win=2161152 Len=0
+
+Frame 127: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 59, Ack: 12, Len: 0
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 59    (relative sequence number)
+    Sequence Number (raw): 1730608933
+    [Next Sequence Number: 59    (relative sequence number)]
+    Acknowledgment Number: 12    (relative ack number)
+    Acknowledgment number (raw): 3525623143
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3a9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 14.914298      127.0.0.1             127.0.0.1             TCP      51     6666 → 56651 [PSH, ACK] Seq=59 Ack=12 Win=2161152 Len=7
+
+Frame 128: 51 bytes on wire (408 bits), 51 bytes captured (408 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 59, Ack: 12, Len: 7
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 7]
+    Sequence Number: 59    (relative sequence number)
+    Sequence Number (raw): 1730608933
+    [Next Sequence Number: 66    (relative sequence number)]
+    Acknowledgment Number: 12    (relative ack number)
+    Acknowledgment number (raw): 3525623143
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xb2fa [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+    TCP payload (7 bytes)
+Data (7 bytes)
+
+0000  45 51 55 41 4c 0d 0a                              EQUAL..
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 14.914312      127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [ACK] Seq=12 Ack=66 Win=2161152 Len=0
+
+Frame 129: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 12, Ack: 66, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 12    (relative sequence number)
+    Sequence Number (raw): 3525623143
+    [Next Sequence Number: 12    (relative sequence number)]
+    Acknowledgment Number: 66    (relative ack number)
+    Acknowledgment number (raw): 1730608940
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3a2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 14.914533      127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [FIN, ACK] Seq=12 Ack=66 Win=2161152 Len=0
+
+Frame 130: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 12, Ack: 66, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 12    (relative sequence number)
+    Sequence Number (raw): 3525623143
+    [Next Sequence Number: 13    (relative sequence number)]
+    Acknowledgment Number: 66    (relative ack number)
+    Acknowledgment number (raw): 1730608940
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x011 (FIN, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3a1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 14.914541      127.0.0.1             127.0.0.1             TCP      44     6666 → 56651 [ACK] Seq=66 Ack=13 Win=2161152 Len=0
+
+Frame 131: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 66, Ack: 13, Len: 0
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 66    (relative sequence number)
+    Sequence Number (raw): 1730608940
+    [Next Sequence Number: 66    (relative sequence number)]
+    Acknowledgment Number: 13    (relative ack number)
+    Acknowledgment number (raw): 3525623144
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3a1 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 14.914560      127.0.0.1             127.0.0.1             TCP      44     6666 → 56651 [FIN, ACK] Seq=66 Ack=13 Win=2161152 Len=0
+
+Frame 132: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 6666, Dst Port: 56651, Seq: 66, Ack: 13, Len: 0
+    Source Port: 6666
+    Destination Port: 56651
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 66    (relative sequence number)
+    Sequence Number (raw): 1730608940
+    [Next Sequence Number: 67    (relative sequence number)]
+    Acknowledgment Number: 13    (relative ack number)
+    Acknowledgment number (raw): 3525623144
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x011 (FIN, ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3a0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 14.914575      127.0.0.1             127.0.0.1             TCP      44     56651 → 6666 [ACK] Seq=13 Ack=67 Win=2161152 Len=0
+
+Frame 133: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 56651, Dst Port: 6666, Seq: 13, Ack: 67, Len: 0
+    Source Port: 56651
+    Destination Port: 6666
+    [Stream index: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+    [TCP Segment Len: 0]
+    Sequence Number: 13    (relative sequence number)
+    Sequence Number (raw): 3525623144
+    [Next Sequence Number: 13    (relative sequence number)]
+    Acknowledgment Number: 67    (relative ack number)
+    Acknowledgment number (raw): 1730608941
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+    Window: 8442
+    [Calculated window size: 2161152]
+    [Window size scaling factor: 256]
+    Checksum: 0xa3a0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+    [SEQ/ACK analysis]
